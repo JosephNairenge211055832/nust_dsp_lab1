@@ -3,12 +3,12 @@ import ballerina/math;
 
 public function main(string... args) {
  // function to generate random numbers
- int|error num = math:randomInRange(10,60);
- io:println("The random number is ", <int>num);
+ int|error number1 = math:randomInRange(10,60);
+ io:println("The random number is ", <int>number1);
 
  int k = 0;
  // type cast from <int|error> to <int>
- int num2  = <int>num;
+ int num2  = <int>nunmber1;
 
  while (k < num2) {
 
